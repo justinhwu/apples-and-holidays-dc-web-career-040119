@@ -65,7 +65,7 @@ holiday_hash each do |key, value|
       newarray.push(x.capitalize!)
     end
     a = newarray.join(" ")
-    b = 
+    b = b.join(" ")
 end
 
 def all_holidays_with_bbq(holiday_hash)
