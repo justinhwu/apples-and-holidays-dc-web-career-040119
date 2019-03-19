@@ -79,7 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do [key, value]
   value.each do [x,y]
   y.each do [i]
-  if x == "BBQ"
+  if i == "BBQ"
     array.push(key)
   end
 end
