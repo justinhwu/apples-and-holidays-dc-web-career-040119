@@ -62,7 +62,7 @@ holiday_hash each do |key, value|
     array = a.to_s.split("")
     newarray = []
     array.each do |x|
-      
+      newarray.push
 end
 
 def all_holidays_with_bbq(holiday_hash)
