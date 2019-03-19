@@ -62,7 +62,7 @@ holiday_hash each do |key, value|
     array = a.to_s.split("_")
     newarray = []
     array.each do |x|
-      newarray.push(x.capitalize!)
+      newarray << x.capitalize!
     end
     a = newarray.join(" ")
     b = b.join(", ")
