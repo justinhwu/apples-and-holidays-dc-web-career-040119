@@ -67,7 +67,7 @@ holiday_hash.each do |key, values|
     end
     a = newarray.join(" ")
     b = b.join(", ")
-    puts "#{a}: #{b}"
+    puts " #{a}: #{b}"
   end
 end
 end
