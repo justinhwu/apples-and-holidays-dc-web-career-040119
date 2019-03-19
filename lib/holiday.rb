@@ -63,6 +63,7 @@ holiday_hash each do |key, value|
     newarray = []
     array.each do |x|
       newarray.push(x.capitalize!)
+      
 end
 
 def all_holidays_with_bbq(holiday_hash)
