@@ -67,6 +67,7 @@ holiday_hash each do |key, value|
     a = newarray.join(" ")
     b = b.join(", ")
     puts "#{a}: #{b}"
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
