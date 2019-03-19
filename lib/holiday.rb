@@ -60,7 +60,7 @@ holiday_hash.each do |key, values|
   puts "#{key.to_s.capitalize!}:"
   
   values.each do |a, b|
-    array = a.to_s.split("_")
+    array = a.to_s.split("")
     newarray = []
     array.each do |x|
       newarray << x.capitalize!
